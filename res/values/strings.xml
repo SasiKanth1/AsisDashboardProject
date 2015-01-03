@@ -1,0 +1,97 @@
+<resources>
+
+    <string name="app_name">Asís</string>
+    <string name="zooper_name">Zooper Skins</string>
+    <string name="contact_name">Contact</string>
+    <string name="about_name">About</string>
+    <string name="apkfilename">ISAS.apk</string>
+    
+    
+    <!-- Home -->
+    <string name="h_title1">Wallpapers</string>
+    <string name="h_title2">Zooper Skins</string>
+    <string name="h_title3">Contact</string>
+    <string name="h_title4">About</string>
+    
+    <string name="h_desc1">Asís wallpapers!</string>
+    <string name="h_desc2">Asís zooper skins!</string>
+    <string name="h_desc3">Contact me!</string>
+    <string name="h_desc4">Know more!</string>
+    
+    
+    <!-- Zooper -->
+    <string name="z_title1">Asís Zooper Skins</string>
+    <string name="z_title2">Zooper Wigdet Pro</string>
+    <string name="z_title3">Install Iconsets</string>
+    
+    <string name="z_desc1">Install Asís Zooper Skins!</string>
+    <string name="z_desc2">Zooper Widget Pro is necessary to use these skins!</string>
+    <string name="z_desc3">Install the iconsets if incase they doesn\'t show up!</string>
+    
+    
+    <!-- Contact -->
+    <string name="c_title1">E-mail</string>
+    <string name="c_title2">Google+</string>
+    
+    <string name="c_desc1">E-mail me for suggestions, bug reports, feedback, etc!</string>
+    <string name="c_desc2">Follow me on Google+ for more news and updates!</string>
+    
+    <string name="developer_email">miriyampallisasikanth@gmail.com</string>
+    <string name="developer_gplus">https://plus.google.com/u/0/+Sasikanth/</string>
+    
+    <string name="email_subject">Asís Feedback/Suggestions/Bug Report</string>
+    
+    
+    <!-- About -->
+    <string name="a_title1">Asís</string>
+    <string name="a_title2">Developer</string>
+    <string name="a_title3">App</string>
+    
+    <string name="a_desc1">About Asís Zooper and Wallpapers!</string>
+    <string name="a_desc2">About Asís developer!</string>
+    <string name="a_desc3">About Asís dashboard app!</string>
+    
+    <string name="dialog_about_asis_title">About Asís!</string>
+    <!-- Tell here about your wallpaper/zooper app and what is special in it, it\'s features and introduction. -->
+    <string name="dialog_about_asis_desc"><b>MAKE YOU\'RE HOMESCREEN BEAUTIFUL</b> "," <b>Asís</b> consists of a widerange of wallpaper and widget selection and will be constantly updated with new widgets and walls.These wallpapers are created by me and Travis Hall,Mohammed Musaddiq,Josh Oleksyn and some of the photography walls are taken from my friend Sri Ram.Now with the wallpaper selection included right into the Dashboard you no longer need Behang to apply walls,the Blink extension will still be present.Enjoy a Beautiful homescreen daily and share the Screenshot on Google+ , Don\'t forgot to tag me so that i can see the screenshot. ENJOY!!!</string>
+    
+    <string name="dialog_about_dev_title">About Developer!</string>
+    <!-- Tell here about yourself, your location blablablablablabla and other information -->
+    <string name="dialog_about_dev_desc">Hello! I am <b>SasiKanth</b> the developer of Asis. I am a 20 year old developer just started to learn android app development and making some UI work , I may not be the best but still i am good at what i do. I work on Talon and Evolve themes , Zooper widgets , wallpapers , UI works etc.., As i am completing my college i cannot completely work on the apps that i have done , but i am sure that i will update them whenever i get time. Thank You Hope you all like Asís!!</string>
+
+     <string name="dialog_about_app_title">About App!</string>
+     <string name="dialog_about_app_desc">This application is made by <b>Mohammed Musaddiq</b> with the help of the following people and open source libraries/apps: \n\n&#8226; Zooper Dash\n&#8226; SystemBar Tint Manager\n&#8226; Wallpaper-Manager by Bencodes\n&#8226; stackoverflow.com\n&#8226; OffCornerDev\n&#8226; Areeb Jamal</string>
+    
+     
+    <!-- Overflow Menu -->
+    <string name="changelog_title">Changelog</string>
+    <string name="request_title">Request a wallpaper</string>
+    <string name="rate_title">Rate it on Play</string>
+    
+    
+    <!-- Changelog -->
+    <string name="changelog">
+        
+        v3.1\n\n
+        
+        &#8226; Added 5 new widgets\n
+        &#8226; Icon change , thanks to Rezza Woran\n
+        &#8226; Android 5.0 Fixes and some UI changes\n
+        &#8226; You can now request a wallpaper from Overflow menu\n
+        &#8226; Fixed some wallpapers not Loading and Applying\n
+ 
+
+        
+    </string>
+    
+    
+    <!-- Request a wallpaper -->
+    <string name="request_sub">Asis Wallpaper Request</string>
+    <string name="request_textfield_hint">Write your wallpaper request here and press the \'Submit\' button and I will try to complete your request within next 2 updates.</string>
+
+    
+    <!-- Rate it on Play -->
+    <string name="playstore_link">market://details?id=sasikanth.isas.dash</string>
+    
+     
+</resources>

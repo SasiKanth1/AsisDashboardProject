@@ -1,0 +1,104 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sasikanth.isas.dash"
+    android:versionCode="6"
+    android:versionName="3.2" >
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/HomeActTheme"
+                android:label="@string/app_name">
+                
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity
+            android:name=".ZooperActivity"
+            android:label="@string/zooper_name" 
+            android:parentActivityName=".MainActivity" >
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+         </activity>
+         
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/contact_name" 
+            android:parentActivityName=".MainActivity" >
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+         </activity>
+         
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_name" 
+            android:parentActivityName=".MainActivity" >
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+         </activity>
+         
+        <activity
+                android:name="com.wallpaper.activity.HomeActivity"
+                android:theme="@style/WallActTheme"
+                android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            <intent-filter>
+                <action android:name="com.knok.behang.blinksource"/>
+            </intent-filter>
+            <meta-data android:name="json" android:value="http://pastebin.com/raw.php?i=s4MQ6gvm"/>
+            <meta-data android:name="name" android:value="Asis walls"/>                                
+        </activity>
+        
+         <activity
+            android:name="org.zooper.zwskin.ZooperTemplate"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="org.zooper.zw.TEMPLATES" />
+            </intent-filter>
+        </activity>
+        <!--
+        COMMERCIAL SKINS ONLY:
+        - Uncomment provider entry
+        - Set android:authorities="PACKAGENAME.zwprovider"
+          If package is "my.pkg.name.zwskin.sample" set it to "my.pkg.name.zwskin.sample.zwprovider"
+        -->
+        <provider
+                android:name="sasikanth.zwskin.isas.TemplateProvider"
+                android:authorities="sasikanth.zwskin.isas.zwprovider"/>
+        
+    </application>
+
+</manifest>

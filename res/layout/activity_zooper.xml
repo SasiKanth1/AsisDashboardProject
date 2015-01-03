@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    android:gravity="center" >
+    
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    
+    <View
+        android:layout_marginBottom="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"/>    
+
+      
+    <!-- Install -->
+    
+  
+	
+  <!-- Get -->
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/list_height"
+	    android:background="@drawable/card_bg_pressed"
+	    android:orientation="horizontal"
+	    android:id="@+id/linearLayout4"
+	    android:onClick="getzooper"
+	    tools:ignore="UselessParent" >
+    
+    <ImageView
+        android:id="@+id/list_image1"
+        android:contentDescription="content_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icons" />
+ 
+	<TextView
+	    android:id="@+id/description1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/title1"
+	    android:layout_marginRight="3dp"
+	    android:layout_toRightOf="@+id/list_image1"
+	    android:text="@string/z_desc2"
+	    android:textStyle="italic"
+		android:textSize="12sp"		
+	    android:textColor="@color/list_desc_color" 
+	    tools:ignore="HardcodedText"/>
+
+	<TextView
+	    android:id="@+id/title1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/description1"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/z_title2"
+	    android:layout_marginTop="11.5dp"
+	    android:textColor="@color/list_title_color"
+	    android:textSize="16sp"
+	    tools:ignore="HardcodedText" />
+
+	<ImageView
+	    android:id="@+id/imageView2"
+        android:contentDescription="content_description"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/card_bg_pressed_top" />
+
+	</RelativeLayout>
+	
+	<!-- Iconsets -->
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/list_height"
+	    android:background="@drawable/card_bg_pressed"
+	    android:orientation="horizontal"
+	    android:id="@+id/linearLayout5"
+	    android:onClick="iconsets"
+	    tools:ignore="UselessParent" >
+    
+    <ImageView
+        android:id="@+id/list_image2"
+        android:contentDescription="content_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/contact" />
+ 
+	<TextView
+	    android:id="@+id/description2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/title2"
+	    android:layout_marginRight="3dp"
+	    android:layout_toRightOf="@+id/list_image2"
+	    android:text="@string/z_desc3"
+	    android:textStyle="italic"
+		android:textSize="12sp"		
+	    android:textColor="@color/list_desc_color" 
+	    tools:ignore="HardcodedText"/>
+
+	<TextView
+	    android:id="@+id/title2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/description2"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/z_title3"
+	    android:layout_marginTop="11.5dp"
+	    android:textColor="@color/list_title_color"
+	    android:textSize="16sp"
+	    tools:ignore="HardcodedText" />
+
+	<ImageView
+	    android:id="@+id/imageView3"
+        android:contentDescription="content_description"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/card_bg_pressed_top" />
+
+	</RelativeLayout>
+	
+  </LinearLayout>
+
+</ScrollView>

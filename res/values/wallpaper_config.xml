@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Customize The URL for the JSON Manifest -->
+    <string name="config_wallpaper_manifest_url">
+        http://pastebin.com/raw.php?i=s4MQ6gvm
+    </string>
+
+    <!-- Configure The External Storage Directory. Don't include sdcard in the path -->
+    <string name="config_external_storage_folder">Downloads/Asis</string>
+
+
+    <!-- Enable The Image Tags (i.e. Each Image Has A Name) -->
+    <item format="boolean" type="bool" name="config_enable_image_names">false</item>
+
+
+    <!-- Enable Image Fade (Note: I would not use anything higher than 500) -->
+    <item format="boolean" type="bool" name="config_enable_image_fade_in">false</item>
+    <item format="integer" type="integer" name="config_fade_in_time">300</item>
+
+
+    <!-- Set A Title For The Wallpaper Preview Title Bar (Leave Empty For It To Use The Image Title) -->
+    <string name="config_full_screen_wallpaper_title">Back</string>
+
+
+    <!-- Tablet Column Count (Land/Port) -->
+    <item name="column_count_large_land" format="integer" type="integer">2</item>
+    <item name="column_count_large_port" format="integer" type="integer">3</item>
+
+    <!-- Phone Column Count (Land/Port) -->
+    <item name="column_count_small_land" format="integer" type="integer">2</item>
+    <item name="column_count_small_port" format="integer" type="integer">2</item>
+
+</resources>

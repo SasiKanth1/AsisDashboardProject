@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    android:gravity="center" >
+    
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    
+    <View
+        android:layout_marginBottom="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"/>    
+
+      
+    <!-- E-mail -->
+    
+  <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/list_height"
+	    android:background="@drawable/card_bg_pressed"
+	    android:orientation="horizontal"
+	    android:id="@+id/linearLayout3"
+	    android:onClick="email"
+	    tools:ignore="UselessParent" >
+    
+    <ImageView
+        android:id="@+id/list_image"
+        android:contentDescription="content_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/wallpapers" />
+ 
+	<TextView
+	    android:id="@+id/description"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/title"
+	    android:layout_marginRight="3dp"
+	    android:layout_toRightOf="@+id/list_image"
+	    android:text="@string/c_desc1"
+	    android:textStyle="italic"
+		android:textSize="12sp"		
+	    android:textColor="@color/list_desc_color" 
+	    tools:ignore="HardcodedText"/>
+
+	<TextView
+	    android:id="@+id/title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/description"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/c_title1"
+	    android:layout_marginTop="11.5dp"
+	    android:textColor="@color/list_title_color"
+	    android:textSize="16sp"
+	    tools:ignore="HardcodedText" />
+
+	<ImageView
+	    android:id="@+id/imageView1"
+        android:contentDescription="content_description"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+
+	    android:background="@drawable/card_bg_pressed_top" />
+
+	</RelativeLayout>
+	
+  <!-- Google+ -->
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/list_height"
+	    android:background="@drawable/card_bg_pressed"
+	    android:orientation="horizontal"
+	    android:id="@+id/linearLayout4"
+	    android:onClick="gplus"
+	    tools:ignore="UselessParent" >
+    
+    <ImageView
+        android:id="@+id/list_image1"
+        android:contentDescription="content_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icons" />
+ 
+	<TextView
+	    android:id="@+id/description1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/title1"
+	    android:layout_marginRight="3dp"
+	    android:layout_toRightOf="@+id/list_image1"
+	    android:text="@string/c_desc2"
+	    android:textStyle="italic"
+		android:textSize="12sp"		
+	    android:textColor="@color/list_desc_color" 
+	    tools:ignore="HardcodedText"/>
+
+	<TextView
+	    android:id="@+id/title1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/description1"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/c_title2"
+	    android:layout_marginTop="11.5dp"
+	    android:textColor="@color/list_title_color"
+	    android:textSize="16sp"
+	    tools:ignore="HardcodedText" />
+
+	<ImageView
+	    android:id="@+id/imageView2"
+        android:contentDescription="content_description"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/card_bg_pressed_top" />
+
+	</RelativeLayout>
+	
+  </LinearLayout>
+
+</ScrollView>

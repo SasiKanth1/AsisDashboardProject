@@ -1,0 +1,7 @@
+<resources>
+    
+    <dimen name="list_height">75dp</dimen>
+    <dimen name="list_icon">4dp</dimen>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item 
+    android:id="@+id/more" 
+    android:showAsAction="always" 
+    android:icon="@drawable/ic_action_overflow" 
+    android:title="More!">   
+    
+    
+    <menu>    
+    <item
+        android:id="@+id/changelog"
+        android:showAsAction="always"
+        android:title="@string/changelog_title"/>
+    
+    <item
+        android:id="@+id/request"
+        android:showAsAction="always"
+        android:title="@string/request_title"/>
+    
+    <item
+        android:id="@+id/rate"
+        android:showAsAction="always"
+        android:title="@string/rate_title"/>
+    </menu>
+  
+</item>
+</menu>

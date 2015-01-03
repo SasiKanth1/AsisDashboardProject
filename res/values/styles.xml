@@ -1,0 +1,18 @@
+<resources>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+          
+        
+    </style>
+    
+    <!-- Home Activity theme. -->
+    <style name="HomeActTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- Wallpaper Activity theme. -->
+    <style name="WallActTheme" parent="android:Theme.Holo">
+        
+    </style>
+
+</resources>
