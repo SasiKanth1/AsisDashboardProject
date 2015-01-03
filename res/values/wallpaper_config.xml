@@ -3,7 +3,7 @@
 
     <!-- Customize The URL for the JSON Manifest -->
     <string name="config_wallpaper_manifest_url">
-        http://pastebin.com/raw.php?i=s4MQ6gvm
+        you're json file URL (without quotes)
     </string>
 
     <!-- Configure The External Storage Directory. Don't include sdcard in the path -->
