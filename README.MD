@@ -8,7 +8,7 @@ Change the versions of the app in AndroidManifest.xml
 
 Assets Folder:
 
-Add your latest 'ISAS.apk' and latest 'IconSets' folder.
+Add your latest 'Bitmaps', 'Zooper widgets', 'IconSets' folder.
 
 
 Drawable-Nodpi Folder:
