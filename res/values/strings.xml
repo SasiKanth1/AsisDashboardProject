@@ -54,7 +54,7 @@
     <string name="dialog_about_asis_title">About Asís!</string>
     <!-- Tell here about your wallpaper/zooper app and what is special in it, it\'s features and introduction. -->
     <string name="dialog_about_asis_desc"><b>MAKE YOU\'RE HOMESCREEN BEAUTIFUL</b> "," <b>Asís</b> consists of a widerange of wallpaper and widget selection and will be constantly updated with new widgets and walls.These wallpapers are created by me and Travis Hall,Mohammed Musaddiq,Josh Oleksyn and some of the photography walls are taken from my friend Sri Ram.Now with the wallpaper selection included right into the Dashboard you no longer need Behang to apply walls,the Blink extension will still be present.Enjoy a Beautiful homescreen daily and share the Screenshot on Google+ , Don\'t forgot to tag me so that i can see the screenshot. ENJOY!!!</string>
-    
+    <string name="muzei_desc"><b>MAKE YOU\'RE HOMESCREEN BEAUTIFUL</b></string>
     <string name="dialog_about_dev_title">About Developer!</string>
     <!-- Tell here about yourself, your location blablablablablabla and other information -->
     <string name="dialog_about_dev_desc">Hello! I am <b>SasiKanth</b> the developer of Asis. I am a 20 year old developer just started to learn android app development and making some UI work , I may not be the best but still i am good at what i do. I work on Talon and Evolve themes , Zooper widgets , wallpapers , UI works etc.., As i am completing my college i cannot completely work on the apps that i have done , but i am sure that i will update them whenever i get time. Thank You Hope you all like Asís!!</string>
@@ -72,17 +72,14 @@
     <!-- Changelog -->
     <string name="changelog">
         
-        v3.1\n\n
+        v3.2\n\n
         
-        &#8226; Added 5 new widgets\n
-        &#8226; Icon change , thanks to Rezza Woran\n
-        &#8226; Android 5.0 Fixes and some UI changes\n
-        &#8226; You can now request a wallpaper from Overflow menu\n
-        &#8226; Fixed some wallpapers not Loading and Applying\n
+        &#8226; Just bug fixes and cleaned up some unnecessary code\n
+        &#8226; Un-Install the previous version of Asis Zooper skin from the Settings\n
+        &#8226; Now you don\'t have to install separate Zooper apk for the skins\, they will be shown directly within the Zooper widget browser\n
  
 
-        
-    </string>
+        </string>
     
     
     <!-- Request a wallpaper -->

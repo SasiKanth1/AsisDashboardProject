@@ -1399,32 +1399,32 @@ containing a value of this type.
         public static final int c_title2=0x7f090021;
         /**  Changelog 
          */
-        public static final int changelog=0x7f090036;
+        public static final int changelog=0x7f090037;
         /**  Overflow Menu 
          */
-        public static final int changelog_title=0x7f090033;
+        public static final int changelog_title=0x7f090034;
         /**  Configure The External Storage Directory. Don't include sdcard in the path 
          */
-        public static final int config_external_storage_folder=0x7f09003b;
+        public static final int config_external_storage_folder=0x7f09003c;
         /**  Set A Title For The Wallpaper Preview Title Bar (Leave Empty For It To Use The Image Title) 
          */
-        public static final int config_full_screen_wallpaper_title=0x7f09003c;
+        public static final int config_full_screen_wallpaper_title=0x7f09003d;
         /**  Customize The URL for the JSON Manifest 
          */
-        public static final int config_wallpaper_manifest_url=0x7f09003a;
+        public static final int config_wallpaper_manifest_url=0x7f09003b;
         public static final int contact_name=0x7f09000f;
         public static final int developer_email=0x7f090024;
         public static final int developer_gplus=0x7f090025;
-        public static final int dialog_about_app_desc=0x7f090032;
-        public static final int dialog_about_app_title=0x7f090031;
+        public static final int dialog_about_app_desc=0x7f090033;
+        public static final int dialog_about_app_title=0x7f090032;
         /**  Tell here about your wallpaper/zooper app and what is special in it, it\'s features and introduction. 
          */
         public static final int dialog_about_asis_desc=0x7f09002e;
         public static final int dialog_about_asis_title=0x7f09002d;
         /**  Tell here about yourself, your location blablablablablabla and other information 
          */
-        public static final int dialog_about_dev_desc=0x7f090030;
-        public static final int dialog_about_dev_title=0x7f09002f;
+        public static final int dialog_about_dev_desc=0x7f090031;
+        public static final int dialog_about_dev_title=0x7f090030;
         public static final int email_subject=0x7f090026;
         public static final int h_desc1=0x7f090016;
         public static final int h_desc2=0x7f090017;
@@ -1436,15 +1436,16 @@ containing a value of this type.
         public static final int h_title2=0x7f090013;
         public static final int h_title3=0x7f090014;
         public static final int h_title4=0x7f090015;
+        public static final int muzei_desc=0x7f09002f;
         /**  Rate it on Play 
          */
-        public static final int playstore_link=0x7f090039;
-        public static final int rate_title=0x7f090035;
+        public static final int playstore_link=0x7f09003a;
+        public static final int rate_title=0x7f090036;
         /**  Request a wallpaper 
          */
-        public static final int request_sub=0x7f090037;
-        public static final int request_textfield_hint=0x7f090038;
-        public static final int request_title=0x7f090034;
+        public static final int request_sub=0x7f090038;
+        public static final int request_textfield_hint=0x7f090039;
+        public static final int request_title=0x7f090035;
         public static final int z_desc1=0x7f09001d;
         public static final int z_desc2=0x7f09001e;
         public static final int z_desc3=0x7f09001f;
@@ -1454,11 +1455,11 @@ containing a value of this type.
         public static final int z_title2=0x7f09001b;
         public static final int z_title3=0x7f09001c;
         public static final int zooper_name=0x7f09000e;
-        public static final int zooper_pack_author=0x7f09003f;
-        public static final int zooper_pack_desc=0x7f09003e;
+        public static final int zooper_pack_author=0x7f090040;
+        public static final int zooper_pack_desc=0x7f09003f;
         /**  These info will be used in the available skins list 
          */
-        public static final int zooper_pack_name=0x7f09003d;
+        public static final int zooper_pack_name=0x7f09003e;
     }
     public static final class style {
         /**  Application theme. 
