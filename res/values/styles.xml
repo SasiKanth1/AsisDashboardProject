@@ -1,9 +1,8 @@
 <resources>
     <!-- Application theme. -->
     <style name="AppTheme" parent="android:Theme.Holo.Light">
-          
-        
-    </style>
+
+</style>
     
     <!-- Home Activity theme. -->
     <style name="HomeActTheme" parent="android:Theme.Holo.Light">

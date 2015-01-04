@@ -4,6 +4,6 @@
     <color name="list_title_color">#FF000000</color>
     <color name="list_desc_color">#333333</color>
     <color name="button_text_color">#FF000000</color>
-    <color name="app_theme_color">#03a9f4</color>
+    <color name="app_theme_color">#4A148C</color>
     
 </resources>

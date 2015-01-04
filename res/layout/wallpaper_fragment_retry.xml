@@ -9,7 +9,7 @@
             android:id="@+id/text_retry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Something went wrong!"
+            android:text="Not sure what Happened!"
             android:textSize="20dip"/>
 
     <Button
