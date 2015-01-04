@@ -3,7 +3,7 @@
 
     <!-- Customize The URL for the JSON Manifest -->
     <string name="config_wallpaper_manifest_url">
-        You're json file link here(without any quotes)
+        http://pastebin.com/raw.php?i=s4MQ6gvm
     </string>
 
     <!-- Configure The External Storage Directory. Don't include sdcard in the path -->
@@ -11,11 +11,11 @@
 
 
     <!-- Enable The Image Tags (i.e. Each Image Has A Name) -->
-    <item format="boolean" type="bool" name="config_enable_image_names">true</item>
+    <item format="boolean" type="bool" name="config_enable_image_names">false</item>
 
 
     <!-- Enable Image Fade (Note: I would not use anything higher than 500) -->
-    <item format="boolean" type="bool" name="config_enable_image_fade_in">true</item>
+    <item format="boolean" type="bool" name="config_enable_image_fade_in">false</item>
     <item format="integer" type="integer" name="config_fade_in_time">300</item>
 
 

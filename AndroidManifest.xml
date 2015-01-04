@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.asis.sasikanth"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="sasikanth.isas.dash"
+    android:versionCode="7"
+    android:versionName="3.3" >
     
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
@@ -82,14 +82,14 @@
             <meta-data android:name="name" android:value="Asis walls"/>                                
         </activity>
         
-        <service android:name=".AsisExampleArtSource"
+        <service android:name=".AsisArtSource"
      android:icon="@drawable/ic_launcher"
      android:label="@string/h_desc1"
      android:description="@string/muzei_desc">
      <intent-filter>
          <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
      </intent-filter>
-     <meta-data android:name="color" android:value="#fa0" />
+     <meta-data android:name="color" android:value="#ace5cc" />
      </service>
         
          <activity

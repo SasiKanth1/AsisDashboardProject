@@ -6,8 +6,8 @@
                                                android:layout_height="fill_parent"
                                                android:drawSelectorOnTop="true"
                                                app:drawSelectorOnTop="true"
-                                               app:horizontalSpacing="4dip"
+                                               app:horizontalSpacing="2dip"
                                                app:listSelector="@drawable/abs__list_selector_holo_dark"
                                                app:scrollDirectionLandscape="horizontal"
                                                app:scrollDirectionPortrait="vertical"
-                                               app:verticalSpacing="4dip"/>
+                                               app:verticalSpacing="1dip"/>

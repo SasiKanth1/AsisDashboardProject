@@ -48,8 +48,7 @@ public class AboutActivity extends Activity {
     	int titleId = getResources().getIdentifier("action_bar_title", "id", "android");
      	if (titleId == 0)
    		titleId = android.R.id.title;
-     	
-
+   	
      	TextView abTitle = (TextView) findViewById(titleId);
      	ab.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.app_theme_color)));
      	ab.setIcon(new ColorDrawable(getResources().getColor(android.R.color.transparent)));  

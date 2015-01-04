@@ -82,14 +82,14 @@
             <meta-data android:name="name" android:value="Asis walls"/>                                
         </activity>
         
-        <service android:name=".AsisExampleArtSource"
+        <service android:name=".AsisArtSource"
      android:icon="@drawable/ic_launcher"
      android:label="@string/h_desc1"
      android:description="@string/muzei_desc">
      <intent-filter>
          <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
      </intent-filter>
-     <meta-data android:name="color" android:value="#fa0" />
+     <meta-data android:name="color" android:value="#ace5cc" />
      </service>
         
          <activity
