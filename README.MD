@@ -1,5 +1,9 @@
 ****ASIS DASHBOARD PROJECT****
 
+IMPORT the **Action Bar Sherlock** library first
+
+download the ABS from here https://github.com/JakeWharton/ActionBarSherlock
+
 Things you need to change to make the dashboard fully yours!
 
 
