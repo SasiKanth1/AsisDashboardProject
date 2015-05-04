@@ -1,9 +1,4 @@
-{
-    "wallpapers": {
-        "category": [
-{
-     "name": "Triangles",
-     "wallpaper": [
+     "wallpapers": [
                   {
                         "author": "Sasi Kanth",
                         "url": "https://googledrive.com/host/0B_rCwhQM7WGbaXpCdGdWYkxhbEE/Triag11.png",
@@ -71,7 +66,4 @@
                         "name": "Triag 11"
                  }
                   ]
-}
-]
-}
 }
